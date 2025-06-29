@@ -33,8 +33,8 @@ export default function App() {
 >
 
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Dashboard />} />
             <Route path="/data-scraping" element={<DataScraping />} />
             <Route path="/bulk-editing" element={<BulkEditing />} />
             <Route path="/single-editing" element={<SingleEditing />} />

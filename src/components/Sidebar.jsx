@@ -31,12 +31,12 @@ export default function Sidebar({ isSidebarOpen }) {
           <p className="text-gray-600 font-bold mb-1">Main</p>
           <ul className="space-y-1">
             <li>
-              <NavLink to="/" className={linkClasses}>
+              <NavLink to="/home" className={linkClasses}>
                 <Home size={18} /> Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/dashboard" className={linkClasses}>
+              <NavLink to="/" className={linkClasses}>
                 <LayoutDashboard size={18} /> Dashboard
               </NavLink>
             </li>

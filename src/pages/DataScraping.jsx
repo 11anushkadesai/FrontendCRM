@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Card from '../components/Card';
 
+
 function DataScraping() {
   const [activeTab, setActiveTab] = useState('scrape');
   const [selectedSite, setSelectedSite] = useState('');

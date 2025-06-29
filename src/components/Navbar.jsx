@@ -19,22 +19,22 @@ export default function Navbar({ onToggleSidebar }) {
         </button>
 
         {/* Responsive Logo */}
-        {/* <img
+         <img
           src={logo}
           alt="Logo"
           className="h-8 w-8 sm:h-10 sm:w-10 object-contain"
-        /> */}
+        /> 
 
         {/* Responsive Company Name */}
-        {/* <span className="font-bold text-sm sm:text-base md:text-lg lg:text-xl text-gray-800 truncate">
+        <span className="font-bold text-sm sm:text-base md:text-lg lg:text-xl text-gray-800 truncate">
           Talent Corner HR Services Pvt. Ltd.
-        </span> */}
+        </span> 
       </div>
 
       {/* Center Section: Navigation Links */}
       <nav className="hidden lg:flex flex-1 justify-center space-x-6">
         <NavLink
-          to="/dashboard"
+          to="/"
           className="text-gray-500 hover:text-black font-bold text-sm md:text-base"
         >
           Dashboard
